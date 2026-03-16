@@ -88,16 +88,8 @@ h2 {
 }
 /* Hover heseg */
 .card:hover {
-  background-color: black;
-  color: rgb(242, 242, 242);
+  filter: brightness(50%);
 }
-
-.package-card:hover button {
-  background-color: black;
-  color: white;
-}
-
-/* id tag heseg */
 #card-image-1 {
   background-image: url(img/sec2-location1.png);
 }
